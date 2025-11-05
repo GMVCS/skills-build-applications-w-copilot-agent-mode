@@ -4,7 +4,7 @@ import random
 from datetime import date, timedelta
 
 class Command(BaseCommand):
-    help = 'Populate the database with test data for users, teams, activities, workouts, and leaderboard entries.'
+    help = 'Populate the octofit_db database with test data.'
 
     def handle(self, *args, **options):
         users = []
